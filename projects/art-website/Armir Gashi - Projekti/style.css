@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(45, 45, 253, 0.603);
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox {
+    border-radius: 25px;
+    width: 520px;
+    height: 420px;
+    background: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    box-sizing: border-box;
+}
+
+.loginbox input {
+    border: transparent;
+    border-bottom: transparent;
+    background: rgb(226, 230, 233);
+    outline: none;
+    height: 50px;
+    width: 250px;
+    border-radius: 25px;  
+    font-weight: 900;
+}
+
+.loginbox input[type="email"], input[type="password"]{
+    border-radius: 50px;
+    height: 45px;
+    width: 90%;
+    margin-left: 20px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.loginbox input[type = "button"] {
+    background: rgb(116, 116, 167);
+    height: 75px;
+    width: 350px;
+    border-radius: 25px;    
+    font-weight: bolder;
+}

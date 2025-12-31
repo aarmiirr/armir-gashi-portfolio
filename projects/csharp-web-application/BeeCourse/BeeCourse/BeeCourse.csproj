@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57C08F4F-F845-4A21-9082-17F56AF7E419}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BeeCourse</RootNamespace>
+    <AssemblyName>BeeCourse</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ballina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ballina.Designer.cs">
+      <DependentUpon>Ballina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BeeCourseDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BeeCourseDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BeeCourseDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BeeCourseDBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BeeCourseDBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BeeCourseDBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BeeCourseDBDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BeeCourseDBDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="biznes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="biznes.Designer.cs">
+      <DependentUpon>biznes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="detaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="detaje.Designer.cs">
+      <DependentUpon>detaje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dizajn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dizajn.Designer.cs">
+      <DependentUpon>Dizajn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gjuhe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gjuhe.Designer.cs">
+      <DependentUpon>gjuhe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalData.cs" />
+    <Compile Include="natyre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="natyre.Designer.cs">
+      <DependentUpon>natyre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="teknologji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="teknologji.Designer.cs">
+      <DependentUpon>teknologji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zhvillimpersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zhvillimpersonal.Designer.cs">
+      <DependentUpon>zhvillimpersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kyqja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kyqja.Designer.cs">
+      <DependentUpon>kyqja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="regjistrimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="regjistrimi.Designer.cs">
+      <DependentUpon>regjistrimi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ballina.resx">
+      <DependentUpon>Ballina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="biznes.resx">
+      <DependentUpon>biznes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="detaje.resx">
+      <DependentUpon>detaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dizajn.resx">
+      <DependentUpon>Dizajn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gjuhe.resx">
+      <DependentUpon>gjuhe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="natyre.resx">
+      <DependentUpon>natyre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="teknologji.resx">
+      <DependentUpon>teknologji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zhvillimpersonal.resx">
+      <DependentUpon>zhvillimpersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kyqja.resx">
+      <DependentUpon>kyqja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="regjistrimi.resx">
+      <DependentUpon>regjistrimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="BeeCourseDBDataSet.xsc">
+      <DependentUpon>BeeCourseDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BeeCourseDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BeeCourseDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BeeCourseDBDataSet.xss">
+      <DependentUpon>BeeCourseDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BeeCourseDBDataSet1.xsc">
+      <DependentUpon>BeeCourseDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BeeCourseDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BeeCourseDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BeeCourseDBDataSet1.xss">
+      <DependentUpon>BeeCourseDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BeeCourseDBDataSet2.xsc">
+      <DependentUpon>BeeCourseDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BeeCourseDBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BeeCourseDBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BeeCourseDBDataSet2.xss">
+      <DependentUpon>BeeCourseDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BeeCourseDBDataSet3.xsc">
+      <DependentUpon>BeeCourseDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="BeeCourseDBDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BeeCourseDBDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BeeCourseDBDataSet3.xss">
+      <DependentUpon>BeeCourseDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

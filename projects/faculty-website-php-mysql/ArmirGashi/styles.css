@@ -1,0 +1,75 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-panel {
+    width: 25%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Georgia', serif;
+}
+
+.left-panel h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.left-panel ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.left-panel ul li {
+    margin: 10px 0;
+}
+
+.left-panel ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.right-panel {
+    width: 70%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.right-panel h2 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
